@@ -5,5 +5,5 @@
 password = "secret_sauce"
 username = "standard_user"
 
-# Simmilar level of extraction should be performed for URLs, Page objects 
+# Similar level of extraction should be performed for URLs, Page objects 
 # and repeating created functions relocated to resource files
