@@ -4,3 +4,6 @@
 # should be excluded in .gitignore file, -> not using it right now
 password = "secret_sauce"
 username = "standard_user"
+
+# Simmilar level of extraction should be performed for URLs, Page objects 
+# and repeating created functions relocated to resource files
