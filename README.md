@@ -1,6 +1,6 @@
 # MoxymindZadanie
 
-1.  **NOTE: Pre-Conditions**
+<h3>1. NOTE: Pre-Conditions</h3>
     
 **Have VS code installed (default installation)**:
 
@@ -17,9 +17,9 @@
 If you don’t have installed your Git client locally go to following URL and install it for your OS:
 
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
+___
 
-
-2.  **Set it up with your account credentials in i.e. git CMD console**, but without $ symbol:
+<h3>2.  Set it up with your account credentials in i.e. git CMD console, but without $ symbol:</h3>
 
   *$ git config --global user.name "<your_name>"*
 
@@ -30,8 +30,9 @@ If you don’t have installed your Git client locally go to following URL and in
 (**or SSH ->** git@github.com:Shakul42/MoxymindZadanie.git)
 
 git clone [https://github.com/Shakul42/MoxymindZadanie/tree/main](https://github.com/Shakul42/MoxymindZadanie/tree/main):
+____
 
-3.  **VS code setup**
+<h3> 3. VS code setup</h3>
     
 After Cloning repository to your local machine open location of project in VS code and install all requirements through the terminal (i.e. in VS code) using command:
 
@@ -40,9 +41,9 @@ After Cloning repository to your local machine open location of project in VS co
 
 To create current requirements.txt you can use command:    pip freeze > requirements.txt
 
-**Alternatively** use commands in terminal and install all manually:
+***Alternatively*** use commands in terminal and install all manually:
 
-FOR reference how to install Playwright with Python check this documentation:[https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro)  
+FOR reference how to install Playwright with Python check this documentation: [https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro)  
 
 **Installing Pytest Playwright package:**
 
@@ -55,10 +56,11 @@ FOR reference how to install Playwright with Python check this documentation:[ht
 to **be able to generate reports** please also install same way following package:
 
     pip install pytest-html
+___
 
-4.  **Running of the Tests**   
+<h3>4. Running of the Tests</h3>   
 
-FE Tests:
+<h4>FE Tests:</h4>
 
 **To run test please use in terminal following command**: -v param is for verbose TC list
 
@@ -67,7 +69,7 @@ FE Tests:
 To run ATC in **different browser** (chromium, webkit, firefox...) and **see it + Report**, you can use following cmd:
 
     pytest --browser chromium --headed --html=reports/report.html --self-contained-html tests\testLoginFe.py -v
-API Tests:
+<h4>API Tests:</h4>
 
 **For API tests run this command +Report** (with attribute -v instead of -s, print messages won’t be showed inside the terminal) :
 
